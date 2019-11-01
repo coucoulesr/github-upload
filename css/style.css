@@ -1,18 +1,43 @@
 body {
 	background-color: #2b877e;
+	margin: 0;
+	font-family: 'Staatliches', sans-serif;
 }
 
-.container {
+.wrapper {
 	width: 70%;
 	margin: 0 auto;
-	padding: 0;
 	background-color: #67946b;
+}
+
+.btn-container {
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #b4a44f;
+	color: #2b877e;
+	border: 3px outset #2B877e;
+	font-weight: bold;
+	padding: 5px 10px;
+	margin: 20px 5px;
+}
+
+.btn:active{
+	border: 3px inset #2B877e;
 }
 
 h1 {
 	text-align: center;
 	color: #b4a44f;
 	padding: 20px;
+	padding-top: 1em;
 	margin-top: 0;
+	font-weight: 400;
+	font-size: 4em;
 	/*border: 1px solid black;*/
 }
