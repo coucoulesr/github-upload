@@ -1,0 +1,18 @@
+body {
+	background-color: #2b877e;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #67946b;
+}
+
+h1 {
+	text-align: center;
+	color: #b4a44f;
+	padding: 20px;
+	margin-top: 0;
+	/*border: 1px solid black;*/
+}
