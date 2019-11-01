@@ -21,9 +21,9 @@ function addButton(parent, text, classArray = []) {
 }
 
 function changeButtons(buttonArray, lang) {
-  for (i = 0; i < buttonArray.length; i++) {
-    buttonArray[i].innerHTML = TRANSLATIONS[lang][i];
-  }
+    for (i = 0; i < buttonArray.length; i++) {
+      buttonArray[i].innerHTML = TRANSLATIONS[lang][i]
+    }
 }
 
 let en = addButton(CONTAINER, "English", ["en"]);

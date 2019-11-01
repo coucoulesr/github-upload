@@ -1,13 +1,23 @@
+/*
+
+#2b877e 	(43,135,126)
+#67946b 	(103,148,107)
+#8f9c5e 	(143,156,94)
+#b4a44f 	(180,164,79)
+#d8ad45 	(216,173,69)
+
+ */
+
 body {
 	background-color: #2b877e;
 	margin: 0;
-	font-family: 'Staatliches', sans-serif;
 }
 
 .wrapper {
-	width: 70%;
+	width: 85%;
 	margin: 0 auto;
 	background-color: #67946b;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .btn-container {
@@ -18,26 +28,37 @@ body {
 	display: inline-block;
 	width: 100px;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
 	background-color: #b4a44f;
 	color: #2b877e;
 	border: 3px outset #2B877e;
 	font-weight: bold;
 	padding: 5px 10px;
-	margin: 20px 5px;
+	margin: 0 5px 60px 5px;
 }
 
 .btn:active{
 	border: 3px inset #2B877e;
 }
 
+.body-content {
+	padding: 0 15px;
+	color: #b4a44f;
+	font-weight: 400;
+	font-size: 1.25em;
+}
+
+p {
+	margin: 0;
+	padding: 0 0 .5em 0;
+}
+
 h1 {
-	text-align: center;
 	color: #b4a44f;
 	padding: 20px;
 	padding-top: 1em;
-	margin-top: 0;
+	margin: 0;
+	font-family: 'Staatliches', sans-serif;
 	font-weight: 400;
-	font-size: 4em;
-	/*border: 1px solid black;*/
+	font-size: 6em;
+	text-align: center;
 }
