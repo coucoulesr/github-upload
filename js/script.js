@@ -34,4 +34,4 @@ let it = addButton(CONTAINER, "Italian", ["it"]);
 en.addEventListener("click", () => { TEXTELEMENT.innerHTML = "Hello, world!"; changeButtons(buttons, "en")} );
 fr.addEventListener("click", () => { TEXTELEMENT.innerHTML = "Bonjour, le monde!"; changeButtons(buttons, "fr")} );
 es.addEventListener("click", () => { TEXTELEMENT.innerHTML = "¡Hola, mundo!"; changeButtons(buttons, "es")} );
-it.addEventListener("click", () => { TEXTELEMENT.innerHTML = "Ciao mondo!"; changeButtons(buttons, "it")} );
+it.addEventListener("click", () => { TEXTELEMENT.innerHTML = "Buon giorno, mondo!"; changeButtons(buttons, "it")} );
